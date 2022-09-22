@@ -1,0 +1,35 @@
+{
+  "name": "2as-web",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Quasar App",
+  "author": "kmytor <kmytor@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@quasar/extras": "^1.0.0",
+    "@vue/apollo-composable": "^4.0.0-alpha.19",
+    "axios": "^0.21.1",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "pinia": "^2.0.11",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "@quasar/quasar-app-extension-apollo": "^2.0.0-beta.5",
+    "autoprefixer": "^10.4.2"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
