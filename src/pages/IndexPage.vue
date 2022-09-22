@@ -9,7 +9,7 @@
 
   <div class="apollo-moon">
       <div class="apollo">
-        <h3>Que paso con el hola gringo</h3>
+        <h3>hHello 1 hello 2 hello3</h3>
         <ul v-for="character in characters.results" :key="character.id">
 
           <li>
