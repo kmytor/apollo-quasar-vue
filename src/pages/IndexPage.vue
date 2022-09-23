@@ -49,6 +49,10 @@ export default defineComponent ({
         }
       }
     `)
+
+    return {
+      characters: result.data
+    }
   }
 })
 
